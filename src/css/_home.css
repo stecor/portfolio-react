@@ -19,7 +19,7 @@
   padding: 20% 0 0 5%;
 }
 
-.home .user-img{
+.home .user-img {
   position: absolute;
   top: 56px;
   left: -250px;
@@ -63,4 +63,139 @@
   font-weight: 300;
   line-height: 1.4;
   margin: 0 0 2rem;
+}
+
+/* Extra small devices (portrait phones, less than 576px)
+ No media query since this is the default in Bootstrap */
+
+/* Small devices (landscape phones, 576px and up) */
+@media (max-width: 767px) {
+
+  .home .logo{
+    height: 50px;
+    width:70px;
+    font-size: 1rem
+  }
+
+  .home .menu-icon{
+    top: -3px;
+    color: #fff;
+    right: 20px;
+  }
+
+  .home .fa-bars{
+    color: #fff !important;
+  }
+
+  .home .info-box{
+    display: none;
+  }
+
+  .home .info-section{
+    padding: 10px 20px;
+    position: static;
+  }
+
+  .home .content-area{
+    margin-left: 0;
+    width: 100%;
+    overflow: auto;
+  }
+
+
+  .home .profile-section{
+    width: 70%;
+    float: right;
+  }
+
+  .home .img-container{
+    padding: 56px 20px 0;
+  }
+
+  .home  .user-img {
+    position: static;
+    width: 100%;
+    padding: 20% 20px 0;
+  }
+
+}
+
+.primary-btn,.ghost-btn{
+  margin-bottom: 20px !important;
+}
+
+
+/* Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991px){
+
+  .home .profile-section{
+    width: 70%;
+    float: right;
+    padding: 20% 20px 0;
+  }
+
+  .home .img-container{
+    padding: 56px 20px 0;
+  }
+
+  .home  .user-img {
+    position: static;
+    width: 100%;
+  }
+
+
+}
+
+
+
+/* Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199px)  {
+
+  .home .profile-section{
+    width: 70%;
+    float: left;
+    padding: 20% 20px 0;
+    max-width: 800px;
+  }
+
+  .home .img-container{
+    padding: 56px 20px 0;
+    float: left;
+  }
+
+  .home  .user-img {
+    position: static;
+    width: 100%;
+  }
+}
+
+
+
+/* Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) and (max-width: 1500px;) {
+
+
+    .home .content-area{
+      width:80%;
+      margin-left: 20%;
+    }
+
+    .home .img-container{
+      padding: 56px 20px 0;
+      float: left;
+    }
+
+    .home  .user-img {
+      position: static;
+      width:100%;
+    }
+
+    .info-section {
+        width: 20%;
+        padding: 56px 30px;
+    }
+
+    .home .icon-section a{
+      font-size: 1.4rem;
+    }
 }

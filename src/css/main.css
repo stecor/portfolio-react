@@ -3,7 +3,7 @@
 @import "_infoSection.css";
 @import "_home.css";
 @import "_portfolio.css";
-
+@import "_contact.css";
 
 *{
   box-sizing: border-box;

@@ -1,12 +1,13 @@
 import React, { Component } from 'react';
-import {Link} from 'react-router-dom';
+/* import {Link} from 'react-router-dom'; */
 
 
-class Home extends Component {
+
+class Contact extends Component {
   render() {
     return (
 
-      <div className="home">
+      <div className="contact">
         <div className="menu-icon">
           <i className="fa fa-bars" aria-hidden="true"></i>
         </div>
@@ -47,16 +48,33 @@ class Home extends Component {
         </section>
         <section className="content-area">
           <div className="img-container">
-            <div className="user-img "></div>
+            <div className="form-section">
+               <form action="/" method="POST">
+                 <h4>Send a Message</h4>
+                  <input type="text" name="name" placeholder="Your Name" required/>
+                  <input type="email" name="email" placeholder="Your Email" required/>
+                  <textarea name="message" id="" cols="30" rows="12" placeholder="Your Message" required></textarea>
+                  <button type="submit">Send Message</button>
+              </form>
+            </div>
           </div>
-          <div className="profile-section">
-            <div className="profile">
-              <h1>[Stefano ><span> Corra</span>]</h1>
-              <h5>Web Developer</h5>
-              <p>Hi my name is Stefano Corra this is my page and I&#39;m a skilled web developer expertise in new tools and technical developments to drive improvements throughout an entire software development lifecycle. Having extensive knowledge in web based environment, along with exceptional analytical, design and problem-solving capabilities. Excellent communication skills and able to work alongside support teams. </p>
+          <div className="contact-section">
+            <div className="contact-info">
+                <h1>Contact Us</h1>
+              <div className="contact-box">
+                <h5>Phone</h5>
+                <p>(453) 456 4536</p>
+              </div>
 
-              <Link to={"/portfolio"}><a  className="primary-btn">Portfolio</a></Link>
-              <Link to={"/contact"}><a className="ghost-btn">Contact</a></Link>
+              <div className="contact-box">
+                <h5>Email</h5>
+                <p>stefano.corra@hotmail.com</p>
+              </div>
+
+              <div className="contact-box">
+                <h5>Address</h5>
+                <p>Hamilton ON Canada</p>
+              </div>
 
             </div>
           </div>
@@ -68,4 +86,6 @@ class Home extends Component {
 }
 
 
-export default Home;
+
+
+export default Contact;
