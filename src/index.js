@@ -1,8 +1,24 @@
-import React from 'react';
+import React, { Component } from 'react';
 import ReactDOM from 'react-dom';
 import './css/main.css';
-import Home from './Home';
+import Home from './home';
+import Portfolio from './portfolio'
+import { BrowserRouter as Router, Route} from 'react-router-dom';
+
+class App extends Component{
+
+    render() {
+      return(
+          <Router>
+            <div>
+            <Route  exact path='/' component = {Home}/>
+            <Route path='/portfolio' component = {Portfolio}/>
+           </div>
+          </Router>
+      );
+    }
+}
 
 
-ReactDOM.render(<Home />, document.getElementById('root'));
 
+ReactDOM.render(<App />, document.getElementById('root'));

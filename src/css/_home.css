@@ -1,62 +1,10 @@
-
-
-
-.logo{
-  border: 5px solid #fff;
-  height: 130px;
-  width: 150px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-size: 2rem;
-  color: #fff;
-  line-height: 0;
-}
-
-.info-section{
+.home .info-section{
   padding: 56px;
   width: 35%;
-  position: absolute;
-  top:0;
-  bottom: 0;
-  left: 0;
 }
 
-.info-box{
-  position: absolute;
-  bottom: 60px;
-}
-
-.info-section h4 {
-  font-size: 1.2rem;
-  color: var(--color3);
-  margin: 0.7rem 0;
-}
-
-.info-section p {
-  font-size: 0.9rem;
-  font-weight: 300;
-  color: var(--color3);
-  margin: 0.2rem 0 1.6rem;
-}
-
-.icon-section a{
-    color: #fff;
-    text-decoration: none;
-    font-size: 2rem;
-    padding: 0 10px;
-}
-
-.icon-section a:hover{
-    color: var(--hovercolor);
-}
-
-.icon-section a:first-child{
-  padding: 0 10px 0 0;
-}
-
-
-.content-area{
+.home .content-area{
+  background: var(--color3);
   margin-left: 35%;
   background: #fff;
   height: 100vh;
@@ -64,14 +12,14 @@
   /*padding: 0 0 0 25%; */
 }
 
-.profile-section{
+.home .profile-section{
   vertical-align: top;
   display: inline-block;
   max-width: 500px;
   padding: 20% 0 0 5%;
 }
 
-.user-img{
+.home .user-img{
   position: absolute;
   top: 56px;
   left: -250px;
@@ -87,30 +35,30 @@
   box-shadow: 9px 20px 74px 6px rgba(3,3,3,0.34);
 }
 
-.img-container{
+.home .img-container{
   display: inline-block;
   width: 30%;
   position: relative;
   height: 100%;
 }
 
-.profile  h1{
+.home .profile  h1{
     font-size: 2.3rem;
     font-weight: 500;
     line-height: 1.2;
     margin: 0 0 1rem;
 }
 
-.profile span{
+.home .profile span{
   color: var(--color1);
 }
 
-h5{
+.home h5{
   font-size: 1.1rem;
   margin: 0 0 2rem;
 }
 
-p{
+.home p{
   color: var(--color5);
   font-weight: 300;
   line-height: 1.4;

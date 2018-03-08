@@ -1,13 +1,10 @@
 import React, { Component } from 'react';
-import {Link} from 'react-router-dom';
 
 
-
-class Home extends Component {
+class Portfolio extends Component {
   render() {
     return (
-
-      <div className="home">
+      <div className="portfolio">
         <div className="menu-icon">
           <i className="fa fa-bars" aria-hidden="true"></i>
         </div>
@@ -47,28 +44,36 @@ class Home extends Component {
           </div>
         </section>
         <section className="content-area">
-          <div className="img-container">
-            <div className="user-img"></div>
-          </div>
-          <div className="profile-section">
-            <div className="profile">
-              <h1>[Stefano ><span> Corra</span>]</h1>
-              <h5>Web Developer</h5>
-              <p>Hi my name is Stefano Corra this is my page and I&#39;m a skilled web developer expertise in new tools and technical developments to drive improvements throughout an entire software development lifecycle. Having extensive knowledge in web based environment, along with exceptional analytical, design and problem-solving capabilities. Excellent communication skills and able to work alongside support teams to define and refine new functionality. </p>
+            <div className="scroll-section">
+                {/* works start */}
+              <div className="work-section">
+                <div className="title">
+                  <h1>LATEST WORKS</h1>
+                </div>
 
-              <Link to={"/portfolio"}><a  className="primary-btn">Portfolio</a></Link>
-              <Link to={"/"}><a className="ghost-btn">Resume</a></Link>
+                <div className="project-section">
+                  <div className="project-box first" >
+                    <div className="grey-bg">
+                      <div className="project-info">
+                        <div className="project-details">
+                          Client: Nike  Year: 2017  Type: Ecommerce
+                        </div>
+                        <div className="project-title">
+                          The Last Yeezys
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
 
+
+              </div>
+              {/* works End */}
             </div>
-          </div>
         </section>
       </div>
-
     );
   }
 }
 
-
-
-
-export default Home;
+export default Portfolio;

@@ -1,6 +1,9 @@
 @import "_reset.css";
 @import "_variables.css";
+@import "_infoSection.css";
 @import "_home.css";
+@import "_portfolio.css";
+
 
 *{
   box-sizing: border-box;
@@ -37,7 +40,13 @@ html,body{
   display: inline-block;
   text-transform: uppercase;
   letter-spacing: 4px;
-  margin-right: 15px
+  margin-right: 15px;
+  text-decoration: none;
+  transition: all 0.3s ease-in-out;
+}
+
+.primary-btn:hover{
+  background: var(--hovercolor);
 }
 
 .ghost-btn{
@@ -51,7 +60,13 @@ html,body{
   display: inline-block;
   text-transform: uppercase;
   letter-spacing: 3px;
+  text-decoration: none;
+  transition: var(--btntransitions);
+}
 
+.ghost-btn:hover{
+  color: var(--hovercolor);
+  border-color: var(--hovercolor);
 }
 
 
@@ -68,7 +83,7 @@ html,body{
   align-items: center;
   justify-content: center;
   opacity: 1;
-  transition: all .5s ease-in-out;
+  transition: var(--btntransitions);
 }
 
 #menu nav{
