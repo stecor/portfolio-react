@@ -20,13 +20,13 @@ class Home extends Component {
         </section>
         <section className="info-section">
           <div className="logo">
-            STE
+            JANE
           </div>
           <div className="info-box">
             <h4>Email</h4>
-            <p>stefano.corra@hotmail.com</p>
+            <p>JaneJohnson@gmail.com</p>
             <h4>Phone</h4>
-            <p>905-850-5768</p>
+            <p>705-850-5768</p>
             <h4>Find Me On</h4>
 
             <div className="icon-section">
@@ -51,9 +51,9 @@ class Home extends Component {
           </div>
           <div className="profile-section">
             <div className="profile">
-              <h1>[Stefano ><span> Corra</span>]</h1>
+              <h1>Jane<br/><span>Johnson</span></h1>
               <h5>Web Developer</h5>
-              <p>Hi my name is Stefano Corra this is my page and I&#39;m a skilled web developer expertise in new tools and technical developments to drive improvements throughout an entire software development lifecycle. Having extensive knowledge in web based environment, along with exceptional analytical, design and problem-solving capabilities. Excellent communication skills and able to work alongside support teams. </p>
+              <p>Donec interdum, odio a iaculis dapibus, neque diam egestas tortor, a pellentesque enim lectus sed nisi. Nam ut nisl ligula. Nulla eu sapien sed dolor tincidunt dictum. </p>
 
               <Link to={"/portfolio"}><a  className="primary-btn">Portfolio</a></Link>
               <Link to={"/contact"}><a className="ghost-btn">Contact</a></Link>

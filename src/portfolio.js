@@ -18,13 +18,13 @@ class Portfolio extends Component {
         </section>
         <section className="info-section">
           <div className="logo">
-            STE
+            JANE
           </div>
           <div className="info-box">
             <h4>Email</h4>
-            <p>stefano.corra@hotmail.com</p>
+            <p>JaneJohnson@gmail.com</p>
             <h4>Phone</h4>
-            <p>905-850-5768</p>
+            <p>705-850-5768</p>
             <h4>Find Me On</h4>
 
             <div className="icon-section">
@@ -105,7 +105,7 @@ class Portfolio extends Component {
                           Client: B&B  Year: 2017  Type: Ecommerce
                         </div>
                         <div className="project-title">
-                          B&B React 
+                          B&B React
                         </div>
                         <i class="fa fa-long-arrow-right" aria-hidden="true"></i>
                       </div>

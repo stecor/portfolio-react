@@ -16,16 +16,16 @@
   vertical-align: top;
   display: inline-block;
   max-width: 500px;
-  padding: 20% 0 0 5%;
+  padding: 20% 0 0 15%;
 }
 
 .home .user-img {
   position: absolute;
   top: 56px;
-  left: -250px;
+  left: -190px;
   width: 500px;
   height: calc(100% - 112px);
-  background: url('../images/photo.png') no-repeat center center;
+  background: url('https://temper-magazine.com/wp-content/uploads/2017/11/Parwena-Uyghur-Courtesy-of-NPR.jpg') no-repeat center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;

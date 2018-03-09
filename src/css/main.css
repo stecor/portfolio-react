@@ -69,7 +69,6 @@ html,body{
   border-color: var(--hovercolor);
 }
 
-
  #menu{
   background: var(--color1);
   position: fixed;
@@ -103,13 +102,13 @@ html,body{
   color: var(--color5);
 }
 
+.menu-active .menu-icon .fa{
+  color: white;
+}
+
 .menu-active #menu{
   width: 100%;
   top: 0;
   bottom: 0;
   transform: translate3d(0,0,0);
-}
-
-.menu-active .menu-icon .fa{
-  color: white;
 }

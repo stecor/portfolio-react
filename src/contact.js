@@ -21,13 +21,13 @@ class Contact extends Component {
         </section>
         <section className="info-section">
           <div className="logo">
-            STE
+            JANE
           </div>
           <div className="info-box">
             <h4>Email</h4>
-            <p>stefano.corra@hotmail.com</p>
+            <p>JaneJohnson@gmail.com</p>
             <h4>Phone</h4>
-            <p>905-850-5768</p>
+            <p>705-850-5768</p>
             <h4>Find Me On</h4>
 
             <div className="icon-section">
@@ -68,12 +68,12 @@ class Contact extends Component {
 
               <div className="contact-box">
                 <h5>Email</h5>
-                <p>stefano.corra@hotmail.com</p>
+                <p>JaneJohnson@gmail.com</p>
               </div>
 
               <div className="contact-box">
                 <h5>Address</h5>
-                <p>Hamilton ON Canada</p>
+                <p>456 Grant ave, Hamilton ON L8C 4K5</p>
               </div>
 
             </div>
@@ -84,8 +84,6 @@ class Contact extends Component {
     );
   }
 }
-
-
 
 
 export default Contact;

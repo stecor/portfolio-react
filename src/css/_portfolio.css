@@ -67,7 +67,6 @@
 
 .grey-bg:hover{
   opacity: 0.9;
-
 }
 
 .grey-bg:hover .project-details{
@@ -108,7 +107,7 @@
 
 .fa-long-arrow-right{
   position: absolute;
-  bottom: 56px;
+  top: 0px;
   right: 56px;
   font-size: 2rem;
 }
