@@ -24,6 +24,10 @@ html,body{
   z-index: 11px;
 }
 
+.menu-icon .fa:hover{
+  cursor: pointer;
+}
+
 .menu-icon .fa{
   font-size: 2rem;
   color: var(--color1);
@@ -83,6 +87,7 @@ html,body{
   justify-content: center;
   opacity: 1;
   transition: var(--btntransitions);
+
 }
 
 #menu nav{
