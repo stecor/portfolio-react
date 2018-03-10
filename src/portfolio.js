@@ -1,9 +1,37 @@
 import React, { Component } from 'react';
 import InfoSection from './component/info-section';
 import MenuSection from './component/menu-section';
+import WorkData from './data/workData';
 
 class Portfolio extends Component {
-  render() {
+
+
+render() {
+
+  var works = WorkData.map((work, index) =>{
+
+      return(
+         <div key={index} >
+          <div className="project-box" style={{  background: `url("${work.image}") no-repeat center center`}}>
+            <div className="grey-bg">
+              <div className="project-info">
+                <div className="project-details">
+                  Client: {work.client}  Year: {work.year}  Type: {work.type}
+                </div>
+                <div className="project-title">
+                  {work.title}
+                </div>
+                <i className="fa fa-long-arrow-right" aria-hidden="true"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      );
+    })
+
+
+
     return (
       <div className="portfolio">
 
@@ -12,80 +40,21 @@ class Portfolio extends Component {
         <InfoSection />
 
         <section className="content-area">
+          <div className="title">
+            <h1>LATEST WORKS</h1>
+          </div>
             <div className="scroll-section">
                 {/* works start */}
+
               <div className="work-section">
-                <div className="title">
-                  <h1>LATEST WORKS</h1>
-                </div>
 
-                <div className="project-section">
-                  {/* first work */}
-                  <div className="project-box first" >
-                    <div className="grey-bg">
-                      <div className="project-info">
-                        <div className="project-details">
-                          Client: Realties  Year: 2017  Type: Real Estate
-                        </div>
-                        <div className="project-title">
-                          The Last Yeezys
-                        </div>
-                        <i class="fa fa-long-arrow-right" aria-hidden="true"></i>
-                      </div>
-                    </div>
-                  </div>
+                  <div className="project-section">
 
-                  {/* second work */}
-                  <div className="project-box second" >
-                    <div className="grey-bg">
-                      <div className="project-info">
-                        <div className="project-details">
-                          Client: Airbnb  Year: 2018  Type: Dashboard
-                        </div>
-                        <div className="project-title">
-                          Major Dashboard
-                        </div>
-                        <i class="fa fa-long-arrow-right" aria-hidden="true"></i>
-                      </div>
-                    </div>
-                  </div>
-
-                  {/* third work */}
-                  <div className="project-box third" >
-                    <div className="grey-bg">
-                      <div className="project-info">
-                        <div className="project-details">
-                          Client: Ical  Year: 2017  Type: Application
-                        </div>
-                        <div className="project-title">
-                          Ical React Native
-                        </div>
-                        <i class="fa fa-long-arrow-right" aria-hidden="true"></i>
-                      </div>
-                    </div>
-                  </div>
-
-                  {/* fourth work */}
-                  <div className="project-box fourth" >
-                    <div className="grey-bg">
-                      <div className="project-info">
-                        <div className="project-details">
-                          Client: B&B  Year: 2017  Type: Ecommerce
-                        </div>
-                        <div className="project-title">
-                          B&B React
-                        </div>
-                        <i class="fa fa-long-arrow-right" aria-hidden="true"></i>
-                      </div>
-                    </div>
-                  </div>
+                  { works }
 
                 </div>
-
-
               </div>
-              {/* works End */}
-            </div>
+           </div>
         </section>
       </div>
     );

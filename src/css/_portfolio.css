@@ -24,7 +24,7 @@
   width: 80%;
   min-width: 300px;
   padding: 56px;
-  overflow: hidden;
+  overflow:scroll;
 
   /*padding: 0 0 0 25%; */
 }
@@ -32,6 +32,7 @@
 .portfolio .project-section{
   display: grid;
   grid-template-columns: 1fr 1fr;
+  margin-top: 56px;
 
   /* max-width: 1000px; */
 }
@@ -118,21 +119,7 @@
   margin-bottom: 1.4rem;
 }
 
-.first{
-  background: url('https://cdn.dribbble.com/users/188162/screenshots/2329965/nike_90.jpg') no-repeat center center;
-}
 
-.second{
-  background: url('https://cdn.dribbble.com/users/257709/screenshots/4053506/wespr_first_0.5x.png') no-repeat center center;
-}
-
-.third{
-  background: url('https://cdn.dribbble.com/users/702789/screenshots/4313526/artboard_2.png') no-repeat center center;
-}
-
-.fourth{
-  background: url('https://cdn.dribbble.com/users/501822/screenshots/4314825/interior_design_blog_homepage.png') no-repeat center center;
-}
 
 /* Extra small devices (portrait phones, less than 576px)
  No media query since this is the default in Bootstrap */
