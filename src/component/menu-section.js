@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-
+import {Link} from 'react-router-dom';
 
 
 class MenuSection extends Component{
@@ -13,27 +13,28 @@ class MenuSection extends Component{
 
   menu = ()=>{
 
-    if(this.toggle){
+    if(this.toggle === 0){
       document.getElementById("menu-burguer").setAttribute("id","menu-burguer-active");
-      this.toggle = 0;
+      this.toggle = 1;
     }else{
       document.getElementById("menu-burguer-active").setAttribute("id","menu-burguer");
-      this.toggle = 1;
+      this.toggle = 0;
     }
   }
 
+
   render(){
     return(
-      <div id="menu-burguer-active" onClick={this.menu}  >
+      <div id="menu-burguer" onClick={this.menu}  >
        <div className="menu-icon">
         <i className="fa fa-bars" aria-hidden="true" ></i>
        </div>
        <section id="menu">
          <nav>
-           <a href="#1">Home</a>
-           <a href="#1">About</a>
-           <a href="#1">Portfolio</a>
-           <a href="#1">Contact</a>
+           <Link to={"/"}><p>Home</p></Link>
+           <Link to={"/"}><p>About</p></Link>
+           <Link to={"/portfolio"}><p>Portfolio</p></Link>
+           <Link to={"/contact"}><p>Contact</p></Link>
          </nav>
         </section>
     </div>

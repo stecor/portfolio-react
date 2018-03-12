@@ -25,8 +25,8 @@ class Home extends Component {
               <h5>Web Developer</h5>
               <p>Donec interdum, odio a iaculis dapibus, neque diam egestas tortor, a pellentesque enim lectus sed nisi. Nam ut nisl ligula. Nulla eu sapien sed dolor tincidunt dictum. </p>
 
-              <Link to={"/portfolio"}><a  className="primary-btn">Portfolio</a></Link>
-              <Link to={"/contact"}><a className="ghost-btn">Contact</a></Link>
+              <Link to={"/portfolio"} className="primary-btn">Portfolio</Link>
+              <Link to={"/contact"} className="ghost-btn">Contact</Link>
 
             </div>
           </div>

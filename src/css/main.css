@@ -88,13 +88,15 @@ html,body{
   justify-content: center;
   opacity: 1;
   transition: var(--btntransitions);
-
+  text-decoration: none;
 }
 
 #menu nav{
   width: 400px;
   text-align: center;
+
 }
+
 
 #menu nav a{
   font-size: 2.3rem;
@@ -106,21 +108,21 @@ html,body{
 
 #menu nav a:hover{
   color: var(--color5);
-
+text-decoration: none;
 }
-
 
 
 #menu-burguer-active #menu{
   width: 100%;
-  top: 0;
+  right: 0;
+  top:0;
   bottom: 0;
-  transform: translate3d(0,0,0);
-
+  transform: translate(0,0);
 }
 
 #menu-burguer-active .menu-icon{
   color: white;
   z-index: 12;
   background-color: #fff;
+  border-radius:10px;
 }
