@@ -27,20 +27,7 @@ var workData=[
     type: 'Ecommerce',
     title: 'B&B Angular'
   },
-  {
-    client: 'Nike',
-    image: 'https://cdn.dribbble.com/users/188162/screenshots/2329965/nike_90.jpg',
-    year: '2017',
-    type: 'ecommerce',
-    title: 'The Last Yeezys'
-  },
-  {
-    client: 'Airbnb',
-    image: 'https://cdn.dribbble.com/users/257709/screenshots/4053506/wespr_first_0.5x.png',
-    year: '2016',
-    type: 'ecommerce',
-    title: 'Major Dashboard'
-  }
+  
 ]
 
 export default workData;

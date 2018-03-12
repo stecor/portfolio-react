@@ -1,13 +1,32 @@
 import React, {Component} from 'react';
 
 
+
 class MenuSection extends Component{
+
+  constructor(props){
+    super(props)
+    this.toggle = 0;
+  }
+
+
+
+  menu = ()=>{
+
+    if(this.toggle){
+      document.getElementById("menu-burguer").setAttribute("id","menu-burguer-active");
+      this.toggle = 0;
+    }else{
+      document.getElementById("menu-burguer-active").setAttribute("id","menu-burguer");
+      this.toggle = 1;
+    }
+  }
 
   render(){
     return(
-      <div className="menu-section">
+      <div id="menu-burguer-active" onClick={this.menu}  >
        <div className="menu-icon">
-        <i className="fa fa-bars" aria-hidden="true"></i>
+        <i className="fa fa-bars" aria-hidden="true" ></i>
        </div>
        <section id="menu">
          <nav>
@@ -21,5 +40,7 @@ class MenuSection extends Component{
     )
   }
 }
+
+
 
 export default MenuSection;

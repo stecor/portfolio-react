@@ -21,7 +21,7 @@ html,body{
   top: 36px;
   right: 36px;
   padding: 20px;
-  z-index: 11px;
+  z-index: 10px;
 }
 
 .menu-icon .fa:hover{
@@ -31,7 +31,7 @@ html,body{
 .menu-icon .fa{
   font-size: 2rem;
   color: var(--color1);
-
+  z-index: 12;
 }
 
 .primary-btn{
@@ -106,17 +106,21 @@ html,body{
 
 #menu nav a:hover{
   color: var(--color5);
+
 }
 
-.menu-active .menu-icon .fa{
-  color: white;
-  z-index: 12;
-}
 
-.menu-active #menu{
+
+#menu-burguer-active #menu{
   width: 100%;
   top: 0;
   bottom: 0;
   transform: translate3d(0,0,0);
 
+}
+
+#menu-burguer-active .menu-icon{
+  color: white;
+  z-index: 12;
+  background-color: #fff;
 }
