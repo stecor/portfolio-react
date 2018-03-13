@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import InfoSection from './component/info-section';
 import MenuSection from './component/menu-section'
 import {Link} from 'react-router-dom';
+import "./css/_home.css";
 
 
 
