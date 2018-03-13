@@ -1,16 +1,12 @@
 import React, { Component } from 'react';
 import ReactDOM from 'react-dom';
-import './css/main.css';
 import Home from './home';
 import Contact from './contact';
 import Portfolio from './portfolio'
 import { BrowserRouter, Route} from 'react-router-dom';
-
+import './css/main.css';
 
 class App extends Component{
-
-
-
 
 
     render() {

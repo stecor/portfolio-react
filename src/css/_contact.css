@@ -4,7 +4,7 @@
 }
 
 .contact .content-area{
-  background: var(--color3);
+  background: #fefefe;
   margin-left: 40%;
   background: #fff;
   height: 100vh;
@@ -30,8 +30,8 @@
   left: -250px;
   width: 500px;
   height: calc(100% - 112px);
-  background: var(--color2);
-  color: var(--color3);
+  background: #272727;
+  color: #fefefe;
   padding: 46px;
   -webkit-box-shadow: 9px 20px 74px 6px rgba(3,3,3,0.34);
   -moz-box-shadow: 9px 20px 74px 6px rgba(3,3,3,0.34);
@@ -50,23 +50,23 @@ textarea{
   width: 100%;
   background: transparent;
   border: none;
-  border-bottom: 2px solid var(--color5);
+  border-bottom: 2px solid #a9a9a9;
   margin-bottom: 2rem;
   font-size: 0.8rem;
   line-height: 1.4;
-  color: var(--color5);
+  color: #a9a9a9;
   padding: 15px 0;
 }
 
 button[type="submit"]{
-  background:  var(--color1);
+  background:  #4b21ff;
   border: none;
   font-size: 1rem;
   -webkit-border-radius: 30px;
   -moz-border-radius: 30px;
   border-radius: 30px;
   text-align: center;
-  color: var(--color3);
+  color: #fefefe;
   padding: 17px 30px;
   text-transform: uppercase;
   width: 100%;
@@ -92,7 +92,7 @@ button[type="submit"]{
 }
 
 .contact .profile span{
-  color: var(--color1);
+  color: #4b21ff;
 }
 
 .contact-box{
@@ -120,7 +120,7 @@ button[type="submit"]{
 }
 
 .contact-box p{
-  color: var(--color5);
+  color: #a9a9a9;
   font-weight: 300;
   line-height: 1.4;
   margin: 0 0 2rem;

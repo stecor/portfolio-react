@@ -4,7 +4,7 @@
 }
 
 .home .content-area{
-  background: var(--color3);
+  background: #fefefe;
   margin-left: 35%;
   background: #fff;
   height: 100vh;
@@ -50,7 +50,7 @@
 }
 
 .home .profile span{
-  color: var(--color1);
+  color: #4b21ff;
 }
 
 .home h5{
@@ -59,7 +59,7 @@
 }
 
 .home p{
-  color: var(--color5);
+  color: #a9a9a9;
   font-weight: 300;
   line-height: 1.4;
   margin: 0 0 2rem;

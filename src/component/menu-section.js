@@ -31,10 +31,10 @@ class MenuSection extends Component{
        </div>
        <section id="menu">
          <nav>
-           <Link to={"/"}><p>Home</p></Link>
-           <Link to={"/"}><p>About</p></Link>
-           <Link to={"/portfolio"}><p>Portfolio</p></Link>
-           <Link to={"/contact"}><p>Contact</p></Link>
+           <Link to={"./"}><span>Home</span></Link>
+           <Link to={"./"}><span>About</span></Link>
+           <Link to={"./portfolio"}><span>Portfolio</span></Link>
+           <Link to={"./contact"}><span>Contact</span>t</Link>
          </nav>
         </section>
     </div>

@@ -17,7 +17,7 @@
 }
 
 .portfolio .content-area{
-  background: var(--color3);
+  background: #fefefe;
   margin-left: 20%;
   background: #fff;
   height: 100vh;
@@ -62,7 +62,7 @@
   right: 0;
   left: 0;
   opacity: 0;
-  transition: var(--btntransitions);
+  transition: all 0.3s ease-in-out;
   overflow: hidden;
 }
 
@@ -94,7 +94,7 @@
   margin: 0 0 1rem;
   transform: translate3d(-200px, 0, 0);
   opacity: 0;
-  transition:  var(--btntransitions);
+  transition:  all 0.3s ease-in-out;
 }
 
 .project-title{
@@ -103,7 +103,7 @@
   font-weight: 700;
   transform: translate3d(-100px, 0, 0);
   opacity: 0;
-  transition:  var(--btntransitions) 0.1s;
+  transition:  all 0.3s ease-in-out 0.1s;
 }
 
 .fa-long-arrow-right{

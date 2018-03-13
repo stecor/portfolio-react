@@ -1,5 +1,4 @@
 @import "_reset.css";
-@import "_variables.css";
 @import "_infoSection.css";
 @import "_home.css";
 @import "_portfolio.css";
@@ -11,7 +10,7 @@
 
 html,body{
   font-size: 18px;
-  background-color: var(--color1);
+  background-color: #4b21ff;
   font-family: 'Barlow Semi Condensed', sans-serif;
   height:  100%;
 }
@@ -30,17 +29,17 @@ html,body{
 
 .menu-icon .fa{
   font-size: 2rem;
-  color: var(--color1);
+  color: #4b21ff;
   z-index: 12;
 }
 
 .primary-btn{
-  background: var(--color1);
+  background: #4b21ff;
   -webkit-border-radius: 30px;
   -moz-border-radius: 30px;
   border-radius: 30px;
   text-align: center;
-  color: var(--color3);
+  color: #fefefe;
   padding: 15px 30px;
   display: inline-block;
   text-transform: uppercase;
@@ -51,31 +50,31 @@ html,body{
 }
 
 .primary-btn:hover{
-  background: var(--hovercolor);
+  background: #000;
 }
 
 .ghost-btn{
-  border: 4px solid var(--color1);
+  border: 4px solid #4b21ff;
   -webkit-border-radius: 30px;
   -moz-border-radius: 30px;
   border-radius: 30px;
   text-align: center;
-  color: var(--color1);
+  color: #4b21ff;
   padding: 12px 27px;
   display: inline-block;
   text-transform: uppercase;
   letter-spacing: 3px;
   text-decoration: none;
-  transition: var(--btntransitions);
+  transition: all 0.3s ease-in-out;
 }
 
 .ghost-btn:hover{
-  color: var(--hovercolor);
-  border-color: var(--hovercolor);
+  color: #000;
+  border-color: #000;
 }
 
  #menu{
-  background: var(--color1);
+  background: #4b21ff;
   position: fixed;
   width: 100%;
   top:0;
@@ -87,7 +86,7 @@ html,body{
   align-items: center;
   justify-content: center;
   opacity: 1;
-  transition: var(--btntransitions);
+  transition: all 0.3s ease-in-out;
   text-decoration: none;
 }
 
@@ -98,17 +97,15 @@ html,body{
 }
 
 
-#menu nav p{
+#menu nav span{
   font-size: 2.3rem;
   padding: 1rem;
   display: inline-block;
   color: #fff;
-  text-decoration: none;
 }
 
-#menu nav p:hover{
-  color: var(--color5);
-text-decoration: none;
+#menu nav span:hover{
+  color: #a9a9a9;
 }
 
 
